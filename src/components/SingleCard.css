@@ -2,12 +2,26 @@
     position: relative;
     
 }
-/* .card{
-    position: absolute;
-} */
+
 .card .front,.card .back{
     border: 2px solid #fff;
     border-radius: 10px;
-    width: 200px;
-    height: 200px;
+    width: 100%;
+}
+.front{
+    position: absolute;
+    transform: rotateY(90deg);
+    transition: all ease-in 0.2s;
+}
+.flipped .front{
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+}
+.back{
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
+}
+.flipped .back{
+    transform: rotateY(90deg);
+    transition-delay: 0s;
 }
