@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <foaf:PersonalProfileDocument rdf:about="">
+    <foaf:name>Lahiru Chathuranga</foaf:name>
+    <foaf:mbox rdf:resource="mailto:lahiruchathuranga19981214@gmail.com@email.com"/>
+    <foaf:homepage rdf:resource="https://lchathuranga.github.io/mapping_game_react/"/>
+    <foaf:nick>YourNick</foaf:nick>
+    <foaf:depiction rdf:resource="https://lchathuranga.github.io/mapping_game_react/your_image.jpg" />
+    <foaf:interest>
+        <rdf:Description rdf:about="http://www.wikimedia.org">
+            <rdfs:label>Wikimedia</rdfs:label>
+        </rdf:Description>
+    </foaf:interest>
+
+    <foaf:knows>
+        <foaf:Person>
+            <foaf:name>Sadisha Nimsara</foaf:name>
+        </foaf:Person>
+    </foaf:knows>
+
+  </foaf:PersonalProfileDocument>
+
+</rdf:RDF>
